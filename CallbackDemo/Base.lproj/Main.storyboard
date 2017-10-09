@@ -127,10 +127,13 @@
                             <constraint firstItem="5zd-ph-BeZ" firstAttribute="leading" secondItem="piM-Qd-ci1" secondAttribute="leading" id="YTa-mN-wfT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="newLabel" destination="k3Z-lZ-6kM" id="tiY-ag-V6I"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kiI-Gh-nzr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933.60000000000002" y="123.68815592203899"/>
+            <point key="canvasLocation" x="1078" y="113"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="xfd-xP-AdR">

@@ -10,11 +10,16 @@ import UIKit
 
 class NewViewController: UIViewController {
 
-
+    @IBOutlet weak var newLabel: UILabel!
+    
+    func setLabelTilte() {
+        self.newLabel.text = "Abdul"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.title = "First Controller"
-       
+       setLabelTilte()
     }
 
     @IBAction func backButtonAction(_ sender: UIButton) {
