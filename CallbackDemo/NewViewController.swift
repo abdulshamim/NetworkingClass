@@ -14,6 +14,7 @@ class NewViewController: UIViewController {
     
     func setLabelTilte() {
         self.newLabel.text = "Shamim Khan"
+        self.newFeature()
     }
     
     override func viewDidLoad() {
@@ -27,4 +28,7 @@ class NewViewController: UIViewController {
         self.navigationController?.popToRootViewController(animated: true)
     }
     
+    func newFeature() {
+        print("Hey it is working")
+    }
 }
