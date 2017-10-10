@@ -13,7 +13,7 @@ class NewViewController: UIViewController {
     @IBOutlet weak var newLabel: UILabel!
     
     func setLabelTilte() {
-        self.newLabel.text = "Abdul"
+        self.newLabel.text = "Shamim Khan"
     }
     
     override func viewDidLoad() {
