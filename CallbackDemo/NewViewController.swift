@@ -29,6 +29,6 @@ class NewViewController: UIViewController {
     }
     
     func newFeature() {
-        print("Hey it is working")
+        
     }
 }
